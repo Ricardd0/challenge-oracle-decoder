@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+       <div class="contenedor">
+              
+              <div class="logo">
+                <img class="imLogo" src="imagenes/logoGrande.png">
+                
+              </div>
+                  <div class="panelIzq">
+                      <textarea id="textoEntrada" type="text" placeholder="Ingrese el texto aqui"></textarea>
+                 </div>
+                 <div class="panelDer">
+                     <img id="imMunieco" src="imagenes/munieco.png">
+                     <h1 id="mensajeMunieco">Ningún mensaje fue encontrado</h1>
+                     <textarea id="textoIzq" class="textoSalida" type="text" rows="10" cols="50" placeholder= "Ingresa el texto que deseas encriptar o desencriptar."></textarea>
+                     <button id="copiar" class="botonCopiar" onclick="copiarAlPortapapeles();">¡Copiar!</button>
+                 </div>
+                   <div class="signoAdmiracion">
+                    <img id="imSignoAd" src="imagenes/signoAdmiracion.png">
+                    <h1 class="precaucion">Solo letras minúsculas y sin acentos</h1>
+
+                    </div>
+                 <div class="botonesEnDe">
+                        <button type="button" class="botonEncriptar" onclick="encriptar()">Encriptar</button>
+                        <button class="botonDesencriptar" onclick="desencriptar()">Desencriptar</button>
+
+                </div>
+                   
+        
+
+
+        </div>
+
+
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
